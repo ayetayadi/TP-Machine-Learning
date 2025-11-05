@@ -1,13 +1,13 @@
-# 📘 Travaux Pratiques de Machine Learning  
+# Travaux Pratiques de Machine Learning  
 **ISAMM – Université de la Manouba**  
 **Encadré par : Dr. Mohamed Ridha Amamou**  
 **Réalisé par : Ayet Ayadi, Chaima Hermi – 3INLOG1**  
-**Année universitaire : 2025–2026**
+**Année universitaire : 2025-2026**
 
 ---
 
 ## 1. Objectif global du module
-Ce projet regroupe l’ensemble des **travaux pratiques du module de Machine Learning**, permettant de maîtriser les algorithmes fondamentaux d’apprentissage supervisé et non supervisé, depuis la régression linéaire jusqu’à la détection d’anomalies.
+Ce projet regroupe l’ensemble des travaux pratiques du module de **Machine Learning**, permettant de maîtriser les algorithmes fondamentaux d’apprentissage supervisé et non supervisé, depuis la régression linéaire jusqu’à la détection d’anomalies.
 
 Chaque TP met l’accent sur :
 - la compréhension théorique des modèles ;
@@ -18,7 +18,7 @@ Chaque TP met l’accent sur :
 
 ## 2. Contenu des TPs
 
-### 🧩 TP1 — Régression Linéaire et Descente de Gradient
+### TP1 — Régression Linéaire et Descente de Gradient
 **Objectif :**  
 Implémenter et analyser la descente de gradient pour ajuster les paramètres d’un modèle de régression linéaire.
 
@@ -26,10 +26,10 @@ Implémenter et analyser la descente de gradient pour ajuster les paramètres d�
 - Implémentation du gradient descendant avec normalisation des données.  
 - Étude de l’effet des hyperparamètres (`α`, nombre d’itérations).  
 - Correction d’une anomalie de prétraitement (normalisation manquante).  
-- Extension vers un **modèle quadratique** pour capturer les non-linéarités.  
+- Extension vers un modèle quadratique pour capturer les non-linéarités.  
 
 **Résultats :**
-- Réduction de la MAE après normalisation et bonne initialisation.  
+- Réduction significative de la MAE après normalisation et bonne initialisation.  
 - Le modèle quadratique présente une meilleure précision que le modèle linéaire.
 
 **Remarques :**
@@ -38,13 +38,13 @@ Implémenter et analyser la descente de gradient pour ajuster les paramètres d�
 
 ---
 
-### 🔍 TP2 — K-Nearest Neighbors (KNN) et Régression Linéaire
+### TP2 — K-Nearest Neighbors (KNN) et Régression Linéaire
 **Objectif :**  
 Appliquer des méthodes supervisées pour la classification et la régression.
 
 **Méthodes :**
 - Implémentation de `KNeighborsClassifier` et `KNeighborsRegressor` de `scikit-learn`.  
-- Comparaison entre distances **Euclidienne** et **Manhattan**.  
+- Comparaison entre distances Euclidienne et Manhattan.  
 - Application sur les datasets *Forest CoverType* (classification) et *Diabetes* (régression).  
 - Développement d’un modèle de régression linéaire pour prédire le prix d’appartements.
 
@@ -62,7 +62,7 @@ Appliquer des méthodes supervisées pour la classification et la régression.
 
 ---
 
-### 🌀 TP3.1 — K-Means : Implémentation et Évaluation
+### TP3.1 — K-Means : Implémentation et Évaluation
 **Objectif :**  
 Mettre en œuvre l’algorithme de groupement K-Means pour comprendre la logique de regroupement et la convergence des centroïdes.
 
@@ -84,7 +84,7 @@ Mettre en œuvre l’algorithme de groupement K-Means pour comprendre la logique
 
 ---
 
-### ⚙️ TP3.2 — Détection d’Anomalies et Validation par Clustering
+### TP3.2 — Détection d’Anomalies et Validation par Clustering
 **Objectif :**  
 Détecter des comportements atypiques à partir d’un modèle statistique et géométrique combiné.
 
@@ -104,14 +104,16 @@ Détecter des comportements atypiques à partir d’un modèle statistique et g�
 
 **Remarques :**
 - Combiner la probabilité et la distance renforce la robustesse du modèle.  
-- Cette approche hybride est particulièrement adaptée à la détection d’anomalies comportementales.
+- Cette approche hybride est adaptée à la détection d’anomalies comportementales.
 
 ---
 
 ## 3. Outils utilisés
 - **Langage :** Python 3.11  
 - **Bibliothèques :**
-  - `NumPy`, `Pandas`, `Matplotlib`
+  - `NumPy`
+  - `Pandas`
+  - `Matplotlib`
   - `scikit-learn`
 - **Environnement de travail :**
   - Jupyter Notebook (`.ipynb`)
@@ -123,8 +125,8 @@ Détecter des comportements atypiques à partir d’un modèle statistique et g�
 ## 4. Synthèse générale
 Ces travaux ont permis de :
 - Comprendre les mécanismes fondamentaux des modèles d’apprentissage supervisé et non supervisé.  
-- Expérimenter le processus complet d’un projet de Machine Learning : **préparation, apprentissage, évaluation, interprétation**.  
-- Développer des compétences techniques (implémentation, visualisation, analyse) et analytiques (interprétation, choix des hyperparamètres).  
+- Expérimenter le processus complet d’un projet de Machine Learning : préparation, apprentissage, évaluation et interprétation.  
+- Développer des compétences techniques (implémentation, visualisation, analyse) et analytiques (interprétation, réglage des hyperparamètres).  
 
 Les résultats obtenus démontrent une progression claire vers la maîtrise des techniques de modélisation et d’analyse de données, constituant une base solide pour des études plus avancées en intelligence artificielle.
 
