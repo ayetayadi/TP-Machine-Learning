@@ -129,8 +129,3 @@ Ces travaux ont permis de :
 - Développer des compétences techniques (implémentation, visualisation, analyse) et analytiques (interprétation, réglage des hyperparamètres).  
 
 Les résultats obtenus démontrent une progression claire vers la maîtrise des techniques de modélisation et d’analyse de données, constituant une base solide pour des études plus avancées en intelligence artificielle.
-
----
-
-## 5. Structure du projet
-
